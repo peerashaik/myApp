@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.4ba1483c.css",
+    "main.js": "/react-gh-pages/static/js/main.3b3353b6.js",
+    "static/media/hero-banner1.jpg": "/react-gh-pages/static/media/hero-banner1.5a8b88489e5a0b8194ca.jpg",
+    "static/media/magna.png": "/react-gh-pages/static/media/magna.9ce108afb7c367cf55f1.png",
+    "static/media/hero-banner5.jpg": "/react-gh-pages/static/media/hero-banner5.622008656a089d82d8df.jpg",
+    "static/media/eliobay.png": "/react-gh-pages/static/media/eliobay.41b8fbc8054ceec4ea5b.png",
+    "static/media/hero-banner2.jpg": "/react-gh-pages/static/media/hero-banner2.943a6b1f62abc162c491.jpg",
+    "static/media/hero-banner4.jpg": "/react-gh-pages/static/media/hero-banner4.d0ad92ffad0340324cfa.jpg",
+    "static/media/heliosext.woff": "/react-gh-pages/static/media/heliosext.34eae4915df009a9db57.woff",
+    "static/media/heliosext-bold.woff": "/react-gh-pages/static/media/heliosext-bold.39f16363ab648ef7ca1c.woff",
+    "static/media/heliosext.woff2": "/react-gh-pages/static/media/heliosext.96a983bcc1b10b32069b.woff2",
+    "static/media/heliosext-bold.woff2": "/react-gh-pages/static/media/heliosext-bold.a3e735bb5a41278580d8.woff2",
+    "index.html": "/react-gh-pages/index.html",
+    "main.4ba1483c.css.map": "/react-gh-pages/static/css/main.4ba1483c.css.map",
+    "main.3b3353b6.js.map": "/react-gh-pages/static/js/main.3b3353b6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4ba1483c.css",
+    "static/js/main.3b3353b6.js"
+  ]
+}
