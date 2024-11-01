@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta
+  name="description"
+  content="User Interface Designer, Web Designer, Web Developer,  eCommerce Frontend Developer. Passionate about user interface designing, developing, and helping brands scalability"
+/>
+<link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+<title>Shaik Peera - User Interface Designer</title>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"></script>
+
+<script type="text/javascript">
+window.addEventListener('load', function() {
+  "use strict";
+
+  //copyright year
+  let date = new Date();
+  let year = date.getFullYear();
+  document.getElementById('date').innerHTML = year;
+
+  //right click disbaled
+  //document.addEventListener('contextmenu', event => event.preventDefault());
+  
+  //smooth back to top
+  window.addEventListener('scroll', e => {
+    const btnScrollToTop = document.querySelector(".back-to-top");
+    btnScrollToTop.addEventListener("click", e => {
+        window.scrollTo({
+            top: 0,
+            left: 0,
+            behavior: "smooth"
+        });
+    });
+    btnScrollToTop.style.display = window.scrollY > 20 ? 'inline-block' : 'none';
+  });
+
+});
+
+$(document).ready(function() {
+  $('.nav-link').click(function() {
+    $('.navToggle input').prop('checked', false);
+  });
+}); 
+</script>
+
+</head>
+<body>
+    <div id="root"></div>
+</body>
+</html>
